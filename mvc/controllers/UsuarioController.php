@@ -40,5 +40,11 @@
        $user->setEmail($_POST['txEmail']);
        $actualizar = $user->Update($id);
      }
+     
+     public function deleteAll(){
+       require_once 'models/Usuario.php';
+       $user = new Usuario();
+       $resultUser = $user->DeleteAll('usuarios');
+     }
    }
 ?>

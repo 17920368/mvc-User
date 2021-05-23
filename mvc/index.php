@@ -13,12 +13,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body>
-  <h1>Sitio web con MVC</h1>
+<body style="background-color: wheat;">
+  <h1 style="text-align: center;">Sitio web con MVC</h1>
   <div class="container">
     <ul class="nav nav-tabs">
       <li class="active"><a href="index.php?controller=UsuarioController&action=mostrarTodos">Usuarios</a></li>
       <li><a href="index.php?controller=UsuarioController&action=crear">Guardar</a></li>
+      <li><a href="index.php?controller=UsuarioController&action=deleteAll">Eliminar todo</a></li>
     </ul>
   </div>
 

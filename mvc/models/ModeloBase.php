@@ -13,9 +13,14 @@
        return $query;
      }
 
-     public function Delete($tabla, $id){
-       $query=$this->db->query("DELETE FROM " . $tabla . " WHERE id=$id");
+     public function Delete($table, $id){
+       $query=$this->db->query("DELETE FROM " . $table . " WHERE id=$id");
        return $query;
+     }
+
+     public function DeleteAll($table){
+      $query=$this->db->query("TRUNCATE TABLE $table");
+      return $query;
      }
    }
 ?>

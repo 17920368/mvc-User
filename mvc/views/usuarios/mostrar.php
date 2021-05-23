@@ -1,6 +1,7 @@
 <div class="col-md-8 col-md-offset-1">
-  <table class="table table-hover" id="tblUsuarios">
-    <tr>
+  <table class="table table-hover" id="tblUsuarios" style="background-color: azure;">
+    <br>
+    <tr style="background-color: aqua;">
       <td>ID</td>
       <td>Nombre</td>
       <td>Apellidos</td>
